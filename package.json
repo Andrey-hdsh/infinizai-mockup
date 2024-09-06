@@ -2,9 +2,10 @@
   "name": "infinizai-mockup",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://Andrey-hdsh.github.io/infinizai-mockup",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /infinizai-mockup/",
+    "build": "parcel build src/index.html --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],

@@ -1,6 +1,12 @@
 .container {
-    max-width: 1200px;
-    padding: 20px 60px 60px;
+    /* max-width: 1200px; */
+    /* padding: 20px 60px 60px; */
+  }
+
+  .header{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   .nav {
     align-items: center;
@@ -9,7 +15,7 @@
   .nav-list {
     gap: 60px;
     margin-left: 222px;
-    margin-right: 124px;
+    /* margin-right: 124px; */
     display: flex;
   }
   .nav-btn {
@@ -19,10 +25,15 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.7;
+    margin-left: auto;
   }
   .hero-section {
     padding-top: 209px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 255px;
     display: flex;
+
   }
   .hero-text-container {
     align-items: center;
@@ -56,5 +67,36 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.7;
+  }
+
+  /* _____________________________________ */
+
+
+  .sponsors {
+    background-color:rgba(253, 208, 74, 1);
+    width: 100vw; 
+    margin: auto;
+  }
+  .sponsors div {
+    padding: 130px 60px;
+  }
+
+  .sponsor-head-block{
+    width: 596px;
+    margin: auto; 
+    text-align: center;
+  }
+
+  .sponsor-head-block h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color:  rgba(34, 39, 48, 1);
+    margin-bottom: 44px;
+  }
+
+  .sponsor-head-block p {
+font-size: 16px;
+color: rgba(85, 85, 85, 1);
+
   }
   
