@@ -42,4 +42,8 @@ ul {
 button {
   all: unset;
 }
+
+* {
+  box-sizing: border-box;
+}
 /*# sourceMappingURL=index.25587b4b.css.map */
