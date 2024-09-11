@@ -1,7 +1,12 @@
-.container {
-  /* max-width: 1200px; */
-  /* padding: 20px 60px 60px; */
-}
+.container{
+  width: 100%;
+  margin: 0 auto;
+  
+  }
+
+  .head_bkg {
+    background: linear-gradient(to right, #000000e0 53%, #57b8ff 50%)
+  }
 
 .header {
   padding-top: 20px;
@@ -155,7 +160,6 @@
 
 .sponsors {
   background-color: rgba(253, 208, 74, 1);
-  width: 100vw;
   margin: auto;
   padding: 130px 60px;
 }
@@ -203,7 +207,6 @@
 
 .store {
   padding: 130px 60px;
-  /* background-color: black; */
   background-image: url("./image/background_store.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -284,7 +287,6 @@
   padding: 130px 60px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .cloud-games-head {
