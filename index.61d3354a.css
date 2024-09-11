@@ -1,3 +1,12 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.head_bkg {
+  background: linear-gradient(to right, #000000e0 53%, #57b8ff 50%);
+}
+
 .header {
   padding-top: 20px;
   padding-left: 60px;
@@ -143,7 +152,6 @@
 
 .sponsors {
   background-color: #fdd04a;
-  width: 100vw;
   margin: auto;
   padding: 130px 60px;
 }
