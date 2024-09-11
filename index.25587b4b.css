@@ -46,4 +46,9 @@ button {
 * {
   box-sizing: border-box;
 }
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 /*# sourceMappingURL=index.25587b4b.css.map */
