@@ -529,6 +529,13 @@
   margin: auto;
   max-width: 847px;
   text-align: center;
+  position: relative;
+}
+
+.community-container img {
+  position: absolute;
+  top: 180px;
+  left: 370px;
 }
 
 .community h3 {
@@ -588,7 +595,8 @@
 
 .footer-container {
   display: flex;
-  gap: 150px;
+  /* gap: 150px; */
+  justify-content: space-between;
 }
 
 .footer-logo-block {
