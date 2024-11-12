@@ -13,7 +13,8 @@ git push origin main
 
 Обновите GitHub Pages:
 npm run deploy
-_____________________________________
+
+---
 
 git add .
 git commit -m "Описание"
@@ -21,12 +22,13 @@ git push origin main
 npm run build
 npm run deploy
 
+ДЛЯ АНИМИРОВАНИЯ СТРАНИЦІ
 
-ДЛЯ АНИМИРОВАНИЯ СТРАНИЦІ 
-
-transition: color 0.3s ease; 
-не на ховер 
-transition: transform 0.3s ease, color 0.3s ease; 
+transition: color 0.3s ease;
+не на ховер
+transition: transform 0.3s ease, color 0.3s ease;
 
 transform: scale(1.15);
-transition: color 0.3s ease; 
+transition: color 0.3s ease;
+
+![макет сторінки](./src/image/layout.jpg)
